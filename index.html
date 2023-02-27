@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Odin Form</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="left">
+        <div class="left-heading">
+          <img
+            src="https://cdn.statically.io/gh/TheOdinProject/curriculum/5f37d43908ef92499e95a9b90fc3cc291a95014c/html_css/project-sign-up-form/odin-lined.png"
+            alt="logo image"
+          />
+          <p>ODIN</p>
+        </div>
+      </div>
+      <div class="right">
+        <div class="top">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem
+          expedita quae quas reprehenderit. Nam quam sunt, fuga consequatur
+          alias, consequuntur asperiores facere quo omnis explicabo possimus
+          labore voluptatum, cum neque?
+        </div>
+        <form>
+          <h3 class="padded">Enter the Data</h3>
+          <div class="form-container">
+            <div>
+              <label for="firstName">First Name: </label>
+              <input type="text" id="firstName" />
+              <label for="email">Email :</label>
+              <input type="email" id="email" />
+              <label for="password">Password: </label>
+              <input type="password" id="password" />
+            </div>
+            <div>
+              <label for="lastName">Last Name: </label>
+              <input type="text" id="lastName" />
+              <label for="phone">Phone: </label>
+              <input type="number" id="phone" />
+              <label for="confirmPassword">Confirm Password: </label>
+              <input type="password" id="confirmPassword" />
+            </div>
+          </div>
+          <h3 class="padded" id="error">Please enter same password</h3>
+          <button class="padded" id="submit">Submit</button>
+        </form>
+        <h4 class="padded">Already Signed Up? <a href="#">Click</a></h4>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
